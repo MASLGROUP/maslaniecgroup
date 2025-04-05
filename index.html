@@ -2,72 +2,142 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <title>Maslaniec Group FZCO</title>
   <style>
     body {
       margin: 0;
-      font-family: sans-serif;
-      background-color: #002244;
-      color: #fff;
+      font-family: 'Segoe UI', sans-serif;
+      background-color: #001f33;
+      color: #ffffff;
+      text-align: center;
     }
+
     header {
-      background-image: url('IMG_5586.jpeg');
+      background-image: url('516AB383-597B-4EB6-A4BA-9B7A0FBC7CDE_1_105_c.jpeg');
       background-size: cover;
       background-position: center;
-      text-align: center;
-      padding: 120px 20px;
       position: relative;
+      padding: 120px 20px;
     }
+
     header::before {
       content: '';
       position: absolute;
-      inset: 0;
-      background-color: rgba(0, 0, 0, 0.6);
-      z-index: 1;
+      top: 0; left: 0; right: 0; bottom: 0;
+      background: rgba(0, 0, 0, 0.6);
     }
-    header .content {
+
+    .header-content {
       position: relative;
       z-index: 2;
-      display: inline-block;
-      background: rgba(0,0,0,0.6);
-      padding: 30px;
-      border-radius: 10px;
+      max-width: 800px;
+      margin: auto;
+      padding: 20px;
+      background-color: rgba(0, 0, 0, 0.5);
+      border-radius: 12px;
     }
+
     header img {
-      width: 150px;
+      width: 140px;
       margin-bottom: 20px;
     }
+
     h1 {
       font-size: 36px;
       margin: 0;
     }
+
     p {
       font-size: 18px;
       margin: 10px 0;
     }
+
     .btn {
       display: inline-block;
-      background-color: #66fcf1;
-      color: #002244;
-      padding: 12px 24px;
       margin: 10px;
+      padding: 12px 24px;
+      background: #66fcf1;
+      color: #001f33;
       text-decoration: none;
-      border-radius: 8px;
+      border-radius: 6px;
       font-weight: bold;
+    }
+
+    section {
+      padding: 60px 20px;
+      max-width: 900px;
+      margin: auto;
+    }
+
+    footer {
+      background: #000d1a;
+      padding: 30px;
+      font-size: 14px;
+      color: #ccc;
+    }
+
+    a {
+      color: #66fcf1;
+      text-decoration: none;
     }
   </style>
 </head>
 <body>
+
   <header>
-    <div class="content">
+    <div class="header-content">
       <img src="logo.jpg" alt="Maslaniec Group Logo" />
       <h1>Maslaniec Group FZCO</h1>
-      <p>Helping You Relocate to Dubai with Confidence</p>
+      <p>Helping You Relocate to Dubai</p>
       <p>Real People. Real Support. Real Results.</p>
-      <a class="btn" href="https://buy.stripe.com/bIYeV12Kb18zdOg7ss" target="_blank">Book 30-Min Consultation</a>
+      <a class="btn" href="https://buy.stripe.com/bIYeV12Kb18zdOg7ss" target="_blank">30-Min Consultation</a>
       <a class="btn" href="https://wa.me/971585876880" target="_blank">WhatsApp Us</a>
     </div>
   </header>
+
+  <section>
+    <h2>We Speak Polish 🇵🇱</h2>
+    <p>Masz pytania? Napisz do nas po polsku – chętnie pomożemy!</p>
+  </section>
+
+  <section>
+    <h2>About Us</h2>
+    <p>We are Wojciech and Mikołaj Masłaniec – father and son, originally from Poland, living 17 years in Ireland, now based in Dubai.</p>
+    <p>We created Maslaniec Group to help people start a new life in the UAE – with trust, honesty, and real support.</p>
+  </section>
+
+  <section>
+    <h2>Our Services</h2>
+    <p>
+      ✅ Relocation to Dubai<br>
+      ✅ Business Registration<br>
+      ✅ Visa & Residency Help<br>
+      ✅ Bank Account Setup<br>
+      ✅ School Enrollment for Kids<br>
+      ✅ Real Estate Support<br>
+      ✅ Payroll (WPS)<br>
+      ✅ Legal, Accounting & Business Advisors
+    </p>
+  </section>
+
+  <section>
+    <h2>Follow Us</h2>
+    <p>
+      <a class="btn" href="https://instagram.com/maslaniecgroup" target="_blank">Instagram</a>
+      <a class="btn" href="https://www.tiktok.com/@mikolaj.maslaniec" target="_blank">TikTok</a>
+    </p>
+  </section>
+
+  <section>
+    <h2>Contact</h2>
+    <p>Email: <a href="mailto:maslaniecgroup@gmail.com">maslaniecgroup@gmail.com</a></p>
+    <p><a class="btn" href="https://wa.me/971585876880" target="_blank">Chat on WhatsApp</a></p>
+  </section>
+
+  <footer>
+    &copy; 2025 Maslaniec Group FZCO – All rights reserved.
+  </footer>
+
 </body>
 </html>
