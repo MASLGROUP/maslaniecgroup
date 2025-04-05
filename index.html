@@ -2,60 +2,52 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <title>Maslaniec Group FZCO</title>
   <style>
     body {
       margin: 0;
       font-family: 'Segoe UI', sans-serif;
-      background-color: #001f33;
-      color: #ffffff;
+      background-color: #f4f7fa;
+      color: #1a1a1a;
     }
 
-    /* HERO SECTION */
-    .hero {
-      background-image: url('516AB383-597B-4EB6-A4BA-9B7A0FBC7CDE_1_105_c.jpeg');
-      background-size: cover;
-      background-position: center;
-      height: 100vh;
-      position: relative;
-      display: flex;
-      align-items: center;
-      justify-content: center;
+    header {
+      padding: 100px 20px 60px;
       text-align: center;
+      background-color: #ffffff;
+      border-bottom: 1px solid #e0e0e0;
     }
 
-    .hero::before {
-      content: '';
-      position: absolute;
-      inset: 0;
-      background: rgba(0, 0, 0, 0.65);
-    }
-
-    .hero-content {
-      position: relative;
-      z-index: 2;
-      backdrop-filter: blur(10px);
-      padding: 30px;
-      background: rgba(0, 0, 0, 0.4);
-      border-radius: 12px;
-      max-width: 600px;
-      margin: auto;
-    }
-
-    .hero-content img {
-      width: 120px;
+    header img {
+      width: 140px;
       margin-bottom: 20px;
     }
 
-    .hero-content h1 {
+    header h1 {
       font-size: 36px;
+      margin-bottom: 10px;
+      color: #001f33;
+    }
+
+    header p {
+      font-size: 20px;
+      color: #444;
       margin-bottom: 10px;
     }
 
-    .hero-content p {
-      font-size: 18px;
-      margin: 5px 0;
+    nav {
+      text-align: center;
+      padding: 20px 0;
+      background-color: #ffffff;
+      border-bottom: 1px solid #e0e0e0;
+    }
+
+    nav a {
+      margin: 0 15px;
+      color: #001f33;
+      font-weight: bold;
+      text-decoration: none;
     }
 
     section {
@@ -67,92 +59,92 @@
 
     h2 {
       font-size: 28px;
+      color: #001f33;
       margin-bottom: 20px;
-      color: #66fcf1;
+    }
+
+    p {
+      font-size: 18px;
+      color: #333;
+      line-height: 1.6;
     }
 
     .btn {
       display: inline-block;
       margin: 10px;
-      padding: 12px 24px;
-      background: #66fcf1;
-      color: #001f33;
+      padding: 14px 28px;
+      background: #001f33;
+      color: #ffffff;
       text-decoration: none;
-      border-radius: 6px;
       font-weight: bold;
+      border-radius: 6px;
     }
 
     footer {
-      background: #000d1a;
-      padding: 30px;
+      background-color: #001f33;
+      color: #ccc;
       text-align: center;
-      color: #aaa;
+      padding: 30px 20px;
       font-size: 14px;
-    }
-
-    a {
-      color: #66fcf1;
-      text-decoration: none;
     }
   </style>
 </head>
 <body>
 
-  <!-- HERO SECTION -->
-  <div class="hero">
-    <div class="hero-content">
-      <img src="logo.jpg" alt="Maslaniec Group Logo" />
-      <h1>Maslaniec Group FZCO</h1>
-      <p>Helping You Relocate to Dubai</p>
-      <p>Real People. Real Support. Real Results.</p>
-    </div>
-  </div>
+  <header>
+    <img src="logo.jpg" alt="Maslaniec Group Logo" />
+    <h1>Maslaniec Group FZCO</h1>
+    <p>Strategic Relocation & Business Consulting in the UAE</p>
+    <p>Helping clients relocate, build, and succeed — the right way.</p>
+  </header>
 
-  <!-- ABOUT -->
-  <section>
-    <h2>About Us</h2>
-    <p>We are Wojciech and Mikołaj Masłaniec – father and son, originally from Poland, with 17 years in Ireland and now living in Dubai.</p>
-    <p>We created Maslaniec Group to help people move, settle, and thrive in the UAE.</p>
-  </section>
+  <nav>
+    <a href="#">About</a>
+    <a href="#">Services</a>
+    <a href="#">Blog</a>
+    <a href="#">Contact</a>
+  </nav>
 
-  <!-- SERVICES -->
   <section>
-    <h2>Our Services</h2>
+    <h2>What Makes Us Different</h2>
     <p>
-      ✅ Relocation to Dubai<br>
-      ✅ Business Setup & Registration<br>
-      ✅ Visa & Residency Assistance<br>
-      ✅ Bank Account Opening<br>
-      ✅ School Enrollment for Children<br>
-      ✅ Real Estate Consulting<br>
-      ✅ Payroll (WPS)<br>
-      ✅ Legal & Financial Expert Support
+      At Maslaniec Group, we combine passion, precision and proven experience.  
+      We know what matters — clear guidance, reliable execution and real results.  
+      Our clients trust us to make relocation to Dubai easy and stress-free.
     </p>
   </section>
 
-  <!-- LANGUAGE -->
   <section>
-    <h2>We Speak Polish 🇵🇱</h2>
-    <p>Masz pytania? Napisz do nas po polsku – odpowiemy szybko i konkretnie.</p>
+    <h2>Why Clients Choose Us</h2>
+    <p>
+      ✅ Personalized, one-on-one consulting<br>
+      ✅ No generic packages – we tailor solutions<br>
+      ✅ Trusted by professionals from Poland, the UK, Ireland, and the USA<br>
+      ✅ End-to-end support: business, visa, banking, schooling, housing<br>
+      ✅ Responsive, reliable and fully connected in the UAE
+    </p>
   </section>
 
-  <!-- CONTACT & CONSULTATION -->
   <section>
-    <h2>Consultations & Contact</h2>
-    <p>Schedule a call or message us directly:</p>
-    <a class="btn" href="https://buy.stripe.com/bIYeV12Kb18zdOg7ss" target="_blank">30-Min Consultation – AED 200</a>
-    <a class="btn" href="https://buy.stripe.com/14k14bacD9F539CfYZ" target="_blank">60-Min Consultation – AED 350</a>
-    <a class="btn" href="https://buy.stripe.com/4gw8wDdoPaJ9dOg3ce" target="_blank">Premium + Follow-up – AED 450</a>
-    <br><br>
-    <a class="btn" href="https://wa.me/971585876880" target="_blank">WhatsApp Us</a>
-    <a class="btn" href="mailto:maslaniecgroup@gmail.com">Email Us</a>
-    <a class="btn" href="https://instagram.com/maslaniecgroup" target="_blank">Instagram</a>
-    <a class="btn" href="https://www.tiktok.com/@mikolaj.maslaniec" target="_blank">TikTok</a>
+    <h2>Book a Consultation</h2>
+    <p>Ready to move? Let's talk.</p>
+    <a class="btn" href="https://buy.stripe.com/bIYeV12Kb18zdOg7ss" target="_blank">30 Min – AED 200</a>
+    <a class="btn" href="https://buy.stripe.com/14k14bacD9F539CfYZ" target="_blank">60 Min – AED 350</a>
+    <a class="btn" href="https://buy.stripe.com/4gw8wDdoPaJ9dOg3ce" target="_blank">Premium – AED 450</a>
   </section>
 
-  <!-- FOOTER -->
+  <section>
+    <h2>Contact</h2>
+    <p>Email: <a href="mailto:maslaniecgroup@gmail.com">maslaniecgroup@gmail.com</a></p>
+    <p><a class="btn" href="https://wa.me/971585876880" target="_blank">WhatsApp Us</a></p>
+    <p>
+      <a href="https://instagram.com/maslaniecgroup" target="_blank">Instagram</a> | 
+      <a href="https://www.tiktok.com/@mikolaj.maslaniec" target="_blank">TikTok</a>
+    </p>
+  </section>
+
   <footer>
-    &copy; 2025 Maslaniec Group FZCO – All rights reserved.
+    &copy; 2025 Maslaniec Group FZCO — All Rights Reserved
   </footer>
 
 </body>
