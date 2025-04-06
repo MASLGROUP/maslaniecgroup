@@ -25,26 +25,78 @@
     header h1 {
       font-size: 42px;
       margin: 0;
+      color: #00ffe5;
     }
     header p {
       font-size: 18px;
       margin: 10px 0 0;
+      color: #cccccc;
     }
     section {
       padding: 60px 20px;
-      max-width: 900px;
+      max-width: 1000px;
       margin: auto;
-      text-align: center;
     }
     section h2 {
       font-size: 28px;
       color: #66fcf1;
+      text-align: center;
+      margin-bottom: 30px;
     }
-    section p, ul li {
+    section p, section ul li {
       font-size: 18px;
       line-height: 1.6;
       text-align: left;
     }
+    ul {
+      padding-left: 20px;
+    }
+    ul ul {
+      padding-left: 20px;
+    }
+    .blog-container {
+      display: grid;
+      grid-template-columns: 1fr;
+      gap: 30px;
+    }
+    .blog-box {
+      background-color: #003355;
+      padding: 20px;
+      border-radius: 12px;
+    }
+    .blog-box h3 {
+      margin-top: 0;
+    }
+    .pricing-buttons a {
+      display: inline-block;
+      background: #00ffe5;
+      color: #002244;
+      padding: 12px 20px;
+      border-radius: 8px;
+      text-decoration: none;
+      font-weight: bold;
+      margin: 10px;
+    }
+    .contact-buttons a {
+      display: inline-block;
+      padding: 12px 24px;
+      border-radius: 8px;
+      text-decoration: none;
+      font-weight: bold;
+      margin: 10px;
+    }
+    .whatsapp { background: #25D366; color: white; }
+    .email { background: #66fcf1; color: #002244; }
+    .socials a {
+      background: #000;
+      color: #fff;
+      padding: 12px 20px;
+      border-radius: 8px;
+      text-decoration: none;
+      font-weight: bold;
+      margin: 10px;
+    }
+    .socials a.instagram { background: #E1306C; }
     footer {
       background-color: #002244;
       color: #ffffff;
@@ -52,61 +104,55 @@
       text-align: center;
       font-size: 14px;
     }
-    a {
-      color: #66fcf1;
-      text-decoration: none;
-    }
   </style>
 </head>
 <body>
   <header>
-  <img src="logo.jpg" alt="Maslaniec Group Logo" style="max-width: 220px; margin-bottom: 20px;">
-  <h1 style="font-size: 38px; color: #00ffe5;">Maslaniec Group FZCO</h1>
-  <p style="font-size: 18px; color: #cccccc;">Strategic Relocation & Business Consulting in the UAE</p>
-</header>
+    <img src="logo.jpg" alt="Maslaniec Group Logo">
+    <h1>Maslaniec Group FZCO</h1>
+    <p>Strategic Relocation & Business Consulting in the UAE</p>
+  </header>
 
   <section>
-  <h2>About Us</h2>
-  <p>Maslaniec Group was born out of experience — not theory. We are a family team, Wojciech and Mikołaj Masłaniec, who’ve lived through the complexity of relocating multiple times and starting over in different parts of the world.</p>
-  <p>Dubai was by far the most challenging move. The systems, the rules, the business setup — everything felt unfamiliar. We spent countless hours searching for real answers, wasting time and money trying to figure it all out on our own. What we needed most back then was someone who had already done it… and could show us the way.</p>
-  <p>That’s exactly what we’ve become — for people like us. We created Maslaniec Group to be the trusted partner we never had: one that’s personal, experienced, and 100% committed to getting things done right. Today, we help others make this move not only easier, but smarter and faster — because we’ve already walked that path, and we know how to guide you through it.</p>
-  
-  <p>We’ve also built a handpicked team of Dubai’s top specialists — professionals who live and breathe this city. Legal experts, business setup advisors, real estate agents, education consultants — every one of them is committed to one mission: making your relocation and business journey smooth, stress-free, and successful. When you work with Maslaniec Group, you're not just getting support — you're gaining a dream team dedicated to helping you win. </p>
-<p style="font-size: 18px; color: #cccccc; margin-top: 40px;">We speak Polish 🇵🇱 and English 🇬🇧 — because clear communication builds real trust.</p>
-</section>
+    <h2>About Us</h2>
+    <p>Maslaniec Group was born out of experience — not theory. We are a family team, Wojciech and Mikołaj Masłaniec, who’ve lived through the complexity of relocating multiple times and starting over in different parts of the world.</p>
+    <p>Dubai was by far the most challenging move. The systems, the rules, the business setup — everything felt unfamiliar. We spent countless hours searching for real answers, wasting time and money trying to figure it all out on our own. What we needed most back then was someone who had already done it… and could show us the way.</p>
+    <p>That’s exactly what we’ve become — for people like us. We created Maslaniec Group to be the trusted partner we never had: one that’s personal, experienced, and 100% committed to getting things done right. Today, we help others make this move not only easier, but smarter and faster — because we’ve already walked that path, and we know how to guide you through it.</p>
+    <p>We’ve also built a handpicked team of Dubai’s top specialists — professionals who live and breathe this city. Legal experts, business setup advisors, real estate agents, education consultants — every one of them is committed to one mission: making your relocation and business journey smooth, stress-free, and successful. When you work with Maslaniec Group, you're not just getting support — you're gaining a dream team dedicated to helping you win.</p>
+    <p style="text-align:center; margin-top: 40px; color: #cccccc;">We speak Polish 🇵🇱 and English 🇬🇧 — because clear communication builds real trust.</p>
+  </section>
 
 <section>
-  <p style="font-size: 18px; color: #cccccc; margin-bottom: 30px;">
-    From relocation and setup to long-term support — we provide everything you need to start a new life and business in Dubai.
-  </p>
-  <h2>What We Do Best</h2>
-  <ul>
-    <li>Relocation consulting – moving to Dubai from Europe</li>
-    <li>Business setup and company formation</li>
-    <li>Opening personal and business bank accounts</li>
-    <li>Visa and residence permit assistance</li>
-    <li>School application support for families</li>
-    <li>Real estate and rental guidance</li>
-    <li>WPS and payroll setup</li>
-    <li>Connections to verified legal, tax, and accounting experts</li>
-    <li><strong>Strategic tax relocation support</strong> – we guide our clients through:
-      <ul style="margin-top: 10px;">
-        <li>Understanding how international tax residency works</li>
-        <li>Exploring legally compliant options in the UAE and other tax-efficient jurisdictions</li>
-        <li>Connecting with our network of licensed legal and tax professionals</li>
-        <li>Learning how Dubai’s Free Zones and tax framework can benefit their situation</li>
-        <li>Preparing the groundwork before engaging licensed experts for final steps</li>
-      </ul>
-    </li>
-  </ul>
-  <p style="font-size: 14px; color: #cccccc; margin-top: 20px;">
-    <em>*Maslaniec Group provides consulting services only. All legal, tax, and compliance matters are referred to licensed professionals from our trusted network.*</em>
-  </p>
-</section>
+    <h2>What We Do Best</h2>
+    <ul>
+      <li>Relocation consulting – moving to Dubai from Europe</li>
+      <li>Business setup and company formation</li>
+      <li>Opening personal and business bank accounts</li>
+      <li>Visa and residence permit assistance</li>
+      <li>School application support for families</li>
+      <li>Real estate and rental guidance</li>
+      <li>WPS and payroll setup</li>
+      <li>Connections to verified legal, tax, and accounting experts</li>
+      <li><strong>Strategic tax relocation support</strong>
+        <ul>
+          <li>Understanding how international tax residency works</li>
+          <li>Exploring legally compliant options in the UAE and beyond</li>
+          <li>Connecting with licensed legal and tax professionals</li>
+          <li>Learning how Dubai’s Free Zones can benefit your setup</li>
+          <li>Preparing the groundwork before engaging specialists</li>
+        </ul>
+      </li>
+    </ul>
+    <p style="font-size: 14px; color: #cccccc; margin-top: 20px;">
+      <em>*Maslaniec Group provides consulting services only. All legal, tax, and compliance matters are referred to licensed professionals from our trusted network.*</em>
+    </p>
+  </section>
+
+  <section>
     <h2>What Makes Us Different</h2>
     <ul>
       <li>Personalized, one-on-one consulting</li>
-      <li>No generic packages – we tailor solutions</li>
+      <li>No generic packages – we tailor every solution</li>
       <li>Trusted by professionals from Poland, the UK, Ireland, and the USA</li>
       <li>End-to-end support: business, visa, banking, schooling, housing</li>
       <li>Responsive, reliable and fully connected in the UAE</li>
@@ -114,65 +160,53 @@
   </section>
 
   <section>
-    <h2>Pricing & Consultations</h2>
-    <ul>
-      <li>30-Minute Consultation: <a href="https://buy.stripe.com/bIYeV12Kb18zdOg7ss" target="_blank">Book Now – AED 200</a></li>
-      <li>60-Minute Consultation: <a href="https://buy.stripe.com/14k14bacD9F539CfYZ" target="_blank">Book Now – AED 350</a></li>
-      <li>Premium 60-Min + Follow-up Email: <a href="https://buy.stripe.com/4gw8wDdoPaJ9dOg3ce" target="_blank">Book Now – AED 450</a></li>
-    </ul>
-    <p>*Custom solutions available – contact us for a quote.</p>
+    <h2>Insights & Guides for Living in Dubai</h2>
+    <p style="font-size: 18px; color: #cccccc; margin-bottom: 30px; text-align: center;">Real answers. Practical tips. Written for people just like you — whether you're planning your move or already here.</p>
+    <div class="blog-container">
+      <div class="blog-box">
+        <h3>What Type of Visa Do You Need in Dubai?</h3>
+        <p>Freelance, Investor, Employment, Golden, Dependent — we break them all down clearly.</p>
+        <a href="blog-visa-guide.html">Read more</a>
+      </div>
+      <div class="blog-box">
+        <h3>What Can You Really Buy in Dubai Without a License?</h3>
+        <p>From selling second-hand goods to using Dubizzle — know your limits and rights.</p>
+        <a href="blog-buying-in-dubai.html">Read more</a>
+      </div>
+      <div class="blog-box">
+        <h3>Top 5 Mistakes People Make When Moving to Dubai</h3>
+        <p>We’ve seen them all — here’s how to avoid wasting time, money, and energy.</p>
+        <a href="blog-top-5-mistakes.html">Read more</a>
+      </div>
+      <div class="blog-box">
+        <h3>How to Find an Apartment in Dubai</h3>
+        <p>Which areas to target, how to negotiate, and platforms to trust.</p>
+        <a href="blog-find-apartment-dubai.html">Read more</a>
+      </div>
+      <div class="blog-box">
+        <h3>Cost of Living in Dubai</h3>
+        <p>Breakdown of monthly costs for individuals and families — what to really expect.</p>
+        <a href="blog-cost-of-living-dubai.html">Read more</a>
+      </div>
+    </div>
   </section>
 
   <section>
-  <h2>Insights & Guides for Living in Dubai</h2>
-  <p style="font-size: 18px; color: #cccccc; margin-bottom: 40px;">Real answers. Practical tips. Written for people just like you — whether you're planning your move or already here.</p>
-  <div style="display: grid; grid-template-columns: 1fr; gap: 30px; text-align: left;">
-    <div style="background-color: #003355; padding: 20px; border-radius: 12px;">
-      <h3>What Type of Visa Do You Need in Dubai?</h3>
-      <p>Freelance, Investor, Employment, Golden, Dependent — we break them all down clearly.</p>
-      <a href="blog-visa-guide.html" style="color: #66fcf1; text-decoration: underline;">Read more</a>
+    <h2>Contact & Consultations</h2>
+    <div class="pricing-buttons">
+      <a href="https://buy.stripe.com/bIYeV12Kb18zdOg7ss" target="_blank">30 Min – AED 200</a>
+      <a href="https://buy.stripe.com/14k14bacD9F539CfYZ" target="_blank">60 Min – AED 350</a>
+      <a href="https://buy.stripe.com/4gw8wDdoPaJ9dOg3ce" target="_blank">Premium – AED 450</a>
     </div>
-    <div style="background-color: #003355; padding: 20px; border-radius: 12px;">
-  <h3>What Can You Really Buy in Dubai Without a License?</h3>
-  <p>From selling second-hand goods to using Dubizzle — know your limits and rights.</p>
-  <a href="blog-buying-in-dubai.html" style="color: #66fcf1; text-decoration: underline;">Read more</a>
-</div>
-    <div style="background-color: #003355; padding: 20px; border-radius: 12px;">
-  <h3>Top 5 Mistakes People Make When Moving to Dubai</h3>
-  <p>We’ve seen them all — here’s how to avoid wasting time, money, and energy.</p>
-  <a href="blog-top-5-mistakes.html" style="color: #66fcf1; text-decoration: underline;">Read more</a>
-</div>
-    <div style="background-color: #003355; padding: 20px; border-radius: 12px;">
-  <h3>How to Find an Apartment in Dubai</h3>
-  <p>Which areas to target, how to negotiate, and platforms to trust.</p>
-  <a href="blog-find-apartment-dubai.html" style="color: #66fcf1; text-decoration: underline;">Read more</a>
-</div>
-    <div style="background-color: #003355; padding: 20px; border-radius: 12px;">
-  <h3>Cost of Living in Dubai</h3>
-  <p>Breakdown of monthly costs for individuals and families — what to really expect.</p>
-  <a href="blog-cost-of-living-dubai.html" style="color: #66fcf1; text-decoration: underline;">Read more</a>
-</div>
-  </div>
-</section>
-
-  <section>
-  <h2 style="color: #00ffe5; font-size: 26px;">Contact & Consultations</h2>
-  <p>
-    <a href="https://buy.stripe.com/bIYeV12Kb18zdOg7ss" target="_blank" style="display:inline-block;background:#00ffe5;color:#002244;padding:12px 20px;border-radius:8px;text-decoration:none;font-weight:bold;margin:10px;">30 Min – AED 200</a>
-    <a href="https://buy.stripe.com/14k14bacD9F539CfYZ" target="_blank" style="display:inline-block;background:#00ffe5;color:#002244;padding:12px 20px;border-radius:8px;text-decoration:none;font-weight:bold;margin:10px;">60 Min – AED 350</a>
-    <a href="https://buy.stripe.com/4gw8wDdoPaJ9dOg3ce" target="_blank" style="display:inline-block;background:#00ffe5;color:#002244;padding:12px 20px;border-radius:8px;text-decoration:none;font-weight:bold;margin:10px;">Premium – AED 450</a>
-  </p>
-  <p style="margin-top: 30px;">
-    <a href="https://wa.me/971585876880" target="_blank" style="display:inline-block;background:#25D366;color:white;padding:12px 24px;border-radius:8px;text-decoration:none;font-weight:bold;margin: 10px;">WhatsApp Us</a>
-    <a href="mailto:maslaniecgroup@gmail.com" style="display:inline-block;background:#66fcf1;color:#002244;padding:12px 24px;border-radius:8px;text-decoration:none;font-weight:bold;margin: 10px;">Email</a>
-  </p>
-  <div style="margin-top: 30px; display: flex; justify-content: center; gap: 20px;">
-  <a href="https://instagram.com/maslaniecgroup" target="_blank" style="background:#E1306C; color:white; padding:12px 20px; border-radius:8px; text-decoration:none; font-weight:bold;">Instagram</a>
-  <a href="https://www.tiktok.com/@mikolajdxb1" target="_blank" style="background:#000000; color:white; padding:12px 20px; border-radius:8px; text-decoration:none; font-weight:bold;">TikTok</a>
-</div>
-</section>
-
-  
+    <div class="contact-buttons">
+      <a href="https://wa.me/971585876880" target="_blank" class="whatsapp">WhatsApp Us</a>
+      <a href="mailto:maslaniecgroup@gmail.com" class="email">Email</a>
+    </div>
+    <div class="socials" style="text-align: center;">
+      <a href="https://instagram.com/maslaniecgroup" target="_blank" class="instagram">Instagram</a>
+      <a href="https://www.tiktok.com/@mikolajdxb1" target="_blank">TikTok</a>
+    </div>
+  </section>
 
   <footer>
     &copy; 2025 Maslaniec Group — All rights reserved
